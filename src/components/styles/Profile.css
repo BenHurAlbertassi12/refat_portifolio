@@ -26,6 +26,7 @@
 }
 .div_stacks {
     margin-right: 15px;
+    text-align: right;
 }
 .img_perfil {
     max-width: 250px;
@@ -79,9 +80,8 @@
 
 .titulos_section, .titulos_section_2 {
     font-size: 45px;
-    color: aliceblue;
+
     margin: 0px;
-    text-align: left;
 }
 
 .titulos_section_2{
