@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(24, 26, 30);
+    margin: 0px;
+    padding: 0px;
+    border: 1px rgb(24, 26, 30) solid;
+    margin-bottom: 15px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    justify-content: space-around; 
+}
+.p-title {
+    color: rgb(255, 248, 239);
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
+}
+.img_stacks{
+    width: 25px;
+}
+.div_header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
