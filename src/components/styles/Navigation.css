@@ -107,3 +107,32 @@ h3 {
     border-top: 1px solid #ccc;
 }
 
+.pie-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#ff6384 0% 25%,
+            /* Segmento 1: vermelho */
+            #36a2eb 25% 50%,
+            /* Segmento 2: azul */
+            #ffcd56 50% 75%,
+            /* Segmento 3: amarelo */
+            #4caf50 75% 100%
+            /* Segmento 4: verde */
+        );
+    margin: 20px auto;
+    position: relative;
+}
+
+.pie-chart::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+    /* Cria o buraco no centro */
+}
