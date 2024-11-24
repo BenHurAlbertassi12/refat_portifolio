@@ -1,12 +1,14 @@
 import React from 'react';
+import './styles/Navigation.css';
+import Contatos from './Navigation_component/Contato';
 
 const Navigation = () => {
   return (
-    <section>
-      <div>1</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
+    <section className='section_stacks_navigation'>
+      <div className='div_navigation'>1</div>
+      <div className='div_navigation'>3</div>
+      <div className='div_navigation'>4</div>
+      <Contatos />
     </section>
   );
 };
